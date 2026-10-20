@@ -1,0 +1,69 @@
+img{ 
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+
+}
+div.image-container {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    font-size: 5em;
+    color: orange;
+    text-shadow: 2px 2px black;
+}
+h2 {
+    color: orange;
+    text-shadow: 1px 1px rgb(221, 14, 14);
+    font-size: 2em;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width:80%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+p.pumpkin-text, p.skeleton-text, p.bat-text {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: left;
+    margin: 20px auto;
+    text-indent: 20px;
+    width: 80%;
+    background-color: orange;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+li.list-item {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.2em;
+    color: orange;
+    text-shadow: 1px 1px black;
+}
+ul{
+    background-color: orange;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+header{
+    color:purple;
+    
+
+}
+nav a:hover{ 
+    color: purple; 
+    text-decoration: none;
+    
+}
