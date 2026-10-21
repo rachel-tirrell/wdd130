@@ -1,13 +1,13 @@
 img{ 
     border-radius: 10px;
-    width: 80%;
-    height: auto;
-
+    width: 70%;
 }
 div.image-container {
-    text-align: center;
-    justify-content: center;
+    text-align: center; 
+    /* justify-content: center;*/
     margin-top: 20px;
+    border: 80px; 
+    border-color: green;
 }
 h1 {
     text-align: center;
@@ -22,7 +22,7 @@ h2 {
     text-align: center;
     background-color: rgb(0, 0, 0);
     padding: 10px;
-    width:80%;
+    width:70%;
     margin: 10px auto;
     box-sizing: border-box;
     border-radius: 10px;
@@ -34,19 +34,11 @@ p.pumpkin-text, p.skeleton-text, p.bat-text {
     text-align: left;
     margin: 20px auto;
     text-indent: 20px;
-    width: 80%;
+    width: 70%;
     background-color: orange;
     padding: 20px;
     border-radius: 10px;
     box-sizing: border-box;
-}
-
-li.list-item {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 1.2em;
-    color: orange;
-    text-shadow: 1px 1px black;
 }
 ul{
     background-color: orange;
@@ -55,15 +47,53 @@ ul{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-
 }
 header{
     color:purple;
-    
-
+    background-color: black;
 }
 nav a:hover{ 
     color: purple; 
     text-decoration: none;
-    
+    background-color: black;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px; 
+    background-color: orange;
+    margin: 40px;
+    border-color: orange;
+    border: radius 2px;
+}
+nav{
+    display:flex; 
+    justify-content: center;
+    background-color: black;
+}
+.image-container img {
+    animation: spooky-float 4s ease-in-out infinite;
+}
+
+.image-container img:hover {
+    filter: brightness(1.12);
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+@keyframes spooky-float {
+    0%, 100% {
+        transform: translateY(0);
+        filter: drop-shadow(0 0 5px rgba(255, 135, 20, 0.45));
+    }
+    50% {
+        transform: translateY(-8px);
+        filter: drop-shadow(0 0 18px rgba(255, 135, 20, 0.8));
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .image-container img {
+        animation: none;
+    }
 }
