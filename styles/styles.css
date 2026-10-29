@@ -1,27 +1,7 @@
-img{width: 50%}
-body{background-color: rgb(178, 200, 241);
-text-align: center; 
-text-wrap: initial;
-margin: 0;}
-/* nav {background-color: aliceblue;}  */
-header, footer{
-    background-color: aliceblue;
-    padding: 20px;
+table, th, td {
+  border:1px solid black;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-p{
-    font-size: ;
-}
-#second {
-    font-size: 3em;
-}
-.emphasis {
-    color: blueviolet;
-}
-nav a:hover {
-    text-decoration: underline;
-    color:blueviolet
+image {
+    height: 130px;
+    width: auto;
 }
