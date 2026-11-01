@@ -1,7 +1,109 @@
-table, th, td {
-  border:1px solid black;
+body {
+  margin: 0%;
 }
-image {
-    height: 130px;
-    width: auto;
+header {
+  background-color: #e4dfda;
+  margin: 0px;
+  padding: 30px;
+  text-align: center;
+}
+main {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+  background-color: #e4dfda;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+h1 {
+  color:#be5937; 
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 3em;
+  margin: 20px;
+}
+table, th, td {
+  border:2px solid black; 
+  padding: 2px;
+  align-items: center;
+  align-content: center;
+}
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav a {
+  border: 2px solid #4a7b9d; 
+  background-color: #4a7b9d;
+  padding: 10px;
+  border-radius: .5em;
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+}
+#home_link, #wwr_link, #about_me_link, #ice_link {
+  text-decoration: none;
+}
+#link_buttons{
+  align-content: center;
+}
+#paragraph_box {
+  background-color:#4a7b9d;
+}
+#table_box {
+  background-color: #486b38;
+  text-align: center;
+}
+#list_box {
+  background-color: #535353
+}
+.text_box {
+  /* border: 2px solid black; */
+  /* border-width: 2px;  */
+  height: 300px;
+  padding: 15px;
+  border-radius: 3em;
+  /* width: 100px; */
+}
+#text_box_grid {
+  align-content: center;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 10px; 
+}
+#image_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+}
+.tree_container, .logo_container {
+  background-color:#e4dfda;
+  margin: 5px;
+  padding: 20px;
+}
+
+.logo_container {
+  grid-column: 1/2;
+}
+.tree_container {
+  grid-column: 2/3;
+}
+
+h3 {
+  color:#be5937;
+  text-align: center;
+}
+div {
+  margin: 20px;
+}
+form {
+  padding: 20px;
+}
+article {
+  width: 80%;
+  align-content: center;
+  align-self: center;
+  text-align: center;
 }

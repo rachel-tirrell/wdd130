@@ -3,41 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-     <link rel="stylesheet" href="styles/styles.css" />
+    <title>RT | Portal Page</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+</style>
+     
 </head>
 <body>
-    <div>
-        <header>
-            <nav>
-                <a href="">Home</a>
-                <a href="">About Me</a>
-                <a href="">WWR</a>
-                <a href="">ICE</a>
-            </nav>
-        </header>
-        <main>
-            <h1>Rachel Tirrell's Portal Page</h1>
-            <section class="text box">
+    <header>
+         <nav id="link_buttons">
+            <a id="home_link" href="https://rachel-tirrell.github.io/wdd130/">Home</a>
+            <a id="about_me_link" href="">About Me</a>
+            <a id="wwr_link" href="https://rachel-tirrell.github.io/wdd130/wwr/index.html">WWR</a>
+            <a id="ice_link" href="">ICE</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Rachel Tirrell's Portal Page</h1>
+        <div id="text_box_grid">
+            <section class="text_box" id="paragraph_box">
                 <p> Insert a paragraph here about how much I enjoy creating and coding. This project was a beautiful combination of both; I was able to design my page through creating the wireframe and also code the acutal page itself. It is pretty awesome that I am able to create this much and get this far! I really enjoy both graphic design and coding, so this project is very fun for me.</p>
             </section>
-            <section class="text box">
-                </table>
+            <section class="text_box" id="table_box">
+                <table>
                 <tr>
                     <th>Project</th>
                     <th>Completion Date</th>
                 </tr>
                 <tr>
                     <td>White Water Rapids Page (WWR)</td>
-                    <td>All About Me</td>
+                    <td>date</td>
                 </tr>
                 <tr>
-                    <td>date</td>
+                    <td>All About Me</td>
                     <td>date</td>
                 </tr>
                 </table>
             </section>
-            <section class="text box">
+            <section class="text_box" id="list_box">
                 <ul>
                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. </li> 
                     <li>Vel beatae illum eius. </li>
@@ -46,12 +50,16 @@
                     <li>ab sapiente soluta maiores suscipit non</li>
                 </ul>
             </section>
-            <section>
-                <div class="logo container">
-                <img src="images/my_logo.png" alt="Rachel Tirrell Logo" height="128px" width="auto"></div>
-                <div class="tree container">
-                <img src="images/tree.jpg" alt="Beautiful trees and mountains" height="128px" width="auto"></div>
-            </section>
+        </div>
+        <div id="image_grid"> 
+            <div class="logo_container">
+                <img src="images/my_logo.png" alt="Rachel Tirrell Logo" height="128px" width="auto">
+            </div>
+            <div class="tree_container">
+                <img src="images/tree.jpg" alt="Beautiful trees and mountains" height="128px" width="auto">
+            </div>
+        </div>
+        <div class="give_space">
             <article>
                 <h3>A Breif History</h3>
                 <p> Insert a paragraph or two here about my history with art, graphic design, and what I want to do with my life. What has inspired me, why am I taking wwd130, why I am at BYU-I and so forth. Not too much info though, because I do have an all about me section. This article could be more about why I am creating this portal page and all of the benefits that come from it.</p>
@@ -65,9 +73,13 @@
                     <label for="font">The Fonts</label><br>
                     <input type="radio" id="layout" name="fav_part" value="layout">
                     <label for="layout">The Page Layout </label>
+                    <br>
+                    <br>
                     <input type="submit" value="Submit">
+                    <br>
                 </form>
             </section>
+        </div>
         </main>
         <footer>
             <p>Please contact me at wil25126@byui.edu</p>
